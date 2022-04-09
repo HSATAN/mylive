@@ -1,3 +1,4 @@
 django 4.0.3
 python 3.9
 mysql 8
+cryptography1.15
