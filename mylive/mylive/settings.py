@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'mylive.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'blog',
+        'USER':'blog',
+        'PASSWORD':'hkj957455',
+        'HOST':'49.235.125.109',
+        'PORT':'3306',
     }
 }
 
