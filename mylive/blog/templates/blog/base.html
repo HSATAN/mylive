@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}
+    这是父模板中的title
+    {% endblock %}</title>
+</head>
+<body>
+<div id="csdn-toolbar" style="position: relative; top: 0px; left: 0px; width: 100%;">
+    <div id=""></div>
+                  </div>
+<div>这是不可以被改写的</div>
+{% block body %}
+<div>继承自父模板</div>
+{% endblock %}
+</body>
+</html>

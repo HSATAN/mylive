@@ -82,3 +82,6 @@ def add_article(request):
         form = ArticleForm()
         print(request.user.nid)
         return render(request, 'blog/article.html', {'form': form})
+
+def son(request):
+    return render(request, 'blog/son.html')
